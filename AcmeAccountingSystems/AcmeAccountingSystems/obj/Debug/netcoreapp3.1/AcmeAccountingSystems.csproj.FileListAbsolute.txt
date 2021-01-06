@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\bin\Debug\netcoreapp3.1\AcmeAccountingSystems.exe
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\bin\Debug\netcoreapp3.1\AcmeAccountingSystems.deps.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\bin\Debug\netcoreapp3.1\AcmeAccountingSystems.runtimeconfig.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\bin\Debug\netcoreapp3.1\AcmeAccountingSystems.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\bin\Debug\netcoreapp3.1\AcmeAccountingSystems.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\bin\Debug\netcoreapp3.1\AcmeAccountingSystems.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\AcmeAccountingSystems\AcmeAccountingSystems\obj\Debug\netcoreapp3.1\AcmeAccountingSystems.genruntimeconfig.cache
