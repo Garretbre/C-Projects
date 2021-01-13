@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport.csproj": {}
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\DailyReport\\DailyReport\\DailyReport.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport.csproj": {
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\DailyReport\\DailyReport\\DailyReport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport.csproj",
+        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\DailyReport\\DailyReport\\DailyReport.csproj",
         "projectName": "DailyReport",
-        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport.csproj",
+        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\DailyReport\\DailyReport\\DailyReport.csproj",
         "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\obj\\",
+        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\DailyReport\\DailyReport\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",
