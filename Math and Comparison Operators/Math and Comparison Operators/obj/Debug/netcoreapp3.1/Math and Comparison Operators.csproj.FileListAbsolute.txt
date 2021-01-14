@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\bin\Debug\netcoreapp3.1\Math and Comparison Operators.exe
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\bin\Debug\netcoreapp3.1\Math and Comparison Operators.deps.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\bin\Debug\netcoreapp3.1\Math and Comparison Operators.runtimeconfig.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\bin\Debug\netcoreapp3.1\Math and Comparison Operators.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\bin\Debug\netcoreapp3.1\Math and Comparison Operators.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\bin\Debug\netcoreapp3.1\Math and Comparison Operators.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Math and Comparison Operators\Math and Comparison Operators\obj\Debug\netcoreapp3.1\Math and Comparison Operators.genruntimeconfig.cache
