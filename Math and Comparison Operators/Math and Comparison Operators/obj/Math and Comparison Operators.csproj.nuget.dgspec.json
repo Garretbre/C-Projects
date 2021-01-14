@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj": {}
+    "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj": {
+    "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj",
+        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj",
         "projectName": "Math and Comparison Operators",
-        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj",
+        "projectPath": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Math and Comparison Operators\\Math and Comparison Operators\\Math and Comparison Operators.csproj",
         "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math and Comparison Operators\\Math and Comparison Operators\\obj\\",
+        "outputPath": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Math and Comparison Operators\\Math and Comparison Operators\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",
