@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\ConsoleApplication\\ConsoleApplication\\ConsoleApplication.csproj",
-      "projectName": "ConsoleApplication",
-      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\ConsoleApplication\\ConsoleApplication\\ConsoleApplication.csproj",
+      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport\\DailyReport.csproj",
+      "projectName": "DailyReport",
+      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport\\DailyReport.csproj",
       "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\ConsoleApplication\\ConsoleApplication\\obj\\",
+      "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\DailyReport\\DailyReport\\DailyReport\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",
