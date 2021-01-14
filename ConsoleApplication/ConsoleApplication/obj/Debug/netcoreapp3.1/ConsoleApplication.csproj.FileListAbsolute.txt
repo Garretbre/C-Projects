@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.exe
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.deps.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.runtimeconfig.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\ConsoleApplication\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.genruntimeconfig.cache
