@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\bin\Debug\netcoreapp3.1\Car Insurance Program.exe
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\bin\Debug\netcoreapp3.1\Car Insurance Program.deps.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\bin\Debug\netcoreapp3.1\Car Insurance Program.runtimeconfig.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\bin\Debug\netcoreapp3.1\Car Insurance Program.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\bin\Debug\netcoreapp3.1\Car Insurance Program.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\bin\Debug\netcoreapp3.1\Car Insurance Program.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Car Insurance Program\Car Insurance Program\obj\Debug\netcoreapp3.1\Car Insurance Program.genruntimeconfig.cache
