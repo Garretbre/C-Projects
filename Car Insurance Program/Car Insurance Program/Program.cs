@@ -38,7 +38,7 @@ namespace Car_Insurance_Program
 
             //Qualified?
             Console.WriteLine("Qualified?");
-            if (age >= 15 && drunk == 2 && speeding <= 3)
+            if (age > 15 && drunk == 2 && speeding <= 3)
             {
                 Console.Write("true");
             }
