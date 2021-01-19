@@ -58,7 +58,7 @@ namespace Package_Express
 
             else
             
-               Console.WriteLine($"Your estimated total for shipping this package is:    ${Convert.ToDecimal(currentWeight + currentWidth + currentHeight + currentLength) / 100}");
+               Console.WriteLine($"Your estimated total for shipping this package is:    ${Convert.ToDecimal(currentWeight * currentWidth * currentHeight * currentLength) / 100}");
 
                 Console.WriteLine("Thank you!");
 
