@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Package Express\\Package Express\\Package Express.csproj",
+      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Package Express\\Package Express\\Package Express.csproj",
       "projectName": "Package Express",
-      "projectPath": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Package Express\\Package Express\\Package Express.csproj",
+      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Package Express\\Package Express\\Package Express.csproj",
       "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Package Express\\Package Express\\obj\\",
+      "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Package Express\\Package Express\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",

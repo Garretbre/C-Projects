@@ -11,3 +11,16 @@ C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Package Express\Packa
 C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.dll
 C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.pdb
 C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.genruntimeconfig.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\bin\Debug\netcoreapp3.1\Package Express.exe
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\bin\Debug\netcoreapp3.1\Package Express.deps.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\bin\Debug\netcoreapp3.1\Package Express.runtimeconfig.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\bin\Debug\netcoreapp3.1\Package Express.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\bin\Debug\netcoreapp3.1\Package Express.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\bin\Debug\netcoreapp3.1\Package Express.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Package Express\Package Express\obj\Debug\netcoreapp3.1\Package Express.genruntimeconfig.cache
