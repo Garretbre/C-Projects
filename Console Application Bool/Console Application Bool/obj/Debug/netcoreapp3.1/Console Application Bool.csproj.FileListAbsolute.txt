@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\bin\Debug\netcoreapp3.1\Console Application Bool.exe
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\bin\Debug\netcoreapp3.1\Console Application Bool.deps.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\bin\Debug\netcoreapp3.1\Console Application Bool.runtimeconfig.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\bin\Debug\netcoreapp3.1\Console Application Bool.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\bin\Debug\netcoreapp3.1\Console Application Bool.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\bin\Debug\netcoreapp3.1\Console Application Bool.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Console Application Bool\Console Application Bool\obj\Debug\netcoreapp3.1\Console Application Bool.genruntimeconfig.cache
