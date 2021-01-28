@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\bin\Debug\netcoreapp3.1\Array Stings and Integers.exe
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\bin\Debug\netcoreapp3.1\Array Stings and Integers.deps.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\bin\Debug\netcoreapp3.1\Array Stings and Integers.runtimeconfig.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\bin\Debug\netcoreapp3.1\Array Stings and Integers.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\bin\Debug\netcoreapp3.1\Array Stings and Integers.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\bin\Debug\netcoreapp3.1\Array Stings and Integers.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.dll
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.pdb
+C:\Users\grret\OneDrive\Documents\GitHub\Basic_C#_Programs\Array Stings and Integers\Array Stings and Integers\obj\Debug\netcoreapp3.1\Array Stings and Integers.genruntimeconfig.cache
