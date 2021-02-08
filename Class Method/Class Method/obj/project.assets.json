@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\Console Application Bool.csproj",
-      "projectName": "Console Application Bool",
-      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\Console Application Bool.csproj",
+      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Class Method\\Class Method\\Class Method.csproj",
+      "projectName": "Class Method",
+      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Class Method\\Class Method\\Class Method.csproj",
       "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\obj\\",
+      "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Class Method\\Class Method\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",

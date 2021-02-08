@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Array Stings and Integers\\Array Stings and Integers\\Array Stings and Integers.csproj": {}
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Array Stings and Integers\\Array Stings and Integers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Array Stings and Integers\\Array Stings and Integers\\Array Stings and Integers.csproj": {
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Array Stings and Integers\\Array Stings and Integers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Array Stings and Integers\\Array Stings and Integers\\Array Stings and Integers.csproj",
+        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Array Stings and Integers\\Array Stings and Integers.csproj",
         "projectName": "Array Stings and Integers",
-        "projectPath": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Array Stings and Integers\\Array Stings and Integers\\Array Stings and Integers.csproj",
+        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Array Stings and Integers\\Array Stings and Integers.csproj",
         "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grret\\OneDrive\\Documents\\GitHub\\Basic_C#_Programs\\Array Stings and Integers\\Array Stings and Integers\\obj\\",
+        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Array Stings and Integers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",

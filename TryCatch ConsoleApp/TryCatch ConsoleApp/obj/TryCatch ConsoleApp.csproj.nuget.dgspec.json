@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\Console Application Bool.csproj": {}
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\TryCatch ConsoleApp\\TryCatch ConsoleApp\\TryCatch ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\Console Application Bool.csproj": {
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\TryCatch ConsoleApp\\TryCatch ConsoleApp\\TryCatch ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\Console Application Bool.csproj",
-        "projectName": "Console Application Bool",
-        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\Console Application Bool.csproj",
+        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\TryCatch ConsoleApp\\TryCatch ConsoleApp\\TryCatch ConsoleApp.csproj",
+        "projectName": "TryCatch ConsoleApp",
+        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\TryCatch ConsoleApp\\TryCatch ConsoleApp\\TryCatch ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Console Application Bool\\Console Application Bool\\obj\\",
+        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\TryCatch ConsoleApp\\TryCatch ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",
