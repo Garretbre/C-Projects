@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\bin\Debug\netcoreapp3.1\Six Part Console Application.exe
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\bin\Debug\netcoreapp3.1\Six Part Console Application.deps.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\bin\Debug\netcoreapp3.1\Six Part Console Application.runtimeconfig.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\bin\Debug\netcoreapp3.1\Six Part Console Application.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\bin\Debug\netcoreapp3.1\Six Part Console Application.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\bin\Debug\netcoreapp3.1\Six Part Console Application.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Six Part Console Application\Six Part Console Application\obj\Debug\netcoreapp3.1\Six Part Console Application.genruntimeconfig.cache
