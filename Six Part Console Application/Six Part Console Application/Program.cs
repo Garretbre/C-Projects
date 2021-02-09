@@ -10,7 +10,7 @@ namespace Six_Part_Console_Application
             //This is the 6 part assignment on Step 210
 
 
-            Console.WriteLine("Hello pedestrian. I am Fortune Teller Jasper \nWelcome learning to tell a tutorial on how to become a fortune teller in five minutes. \nLet us begin  ");
+            Console.WriteLine("Hello pedestrian. Fortune Teller Jasper at your service. \nDo you want to become a fortune teller in 2 minutes? \nLet us begin  ");
 
             // Part 1 question 1: A one-dimensional array of strings
             string[] jaspersName = { "Abra ", "Kadabra ", "Let us begin " };
@@ -38,7 +38,7 @@ namespace Six_Part_Console_Application
             // Part 1 question 5: Save and execute your code
             //Done
 
-            Console.WriteLine("Ok...Ok that is just a good memory. Now for lesson one. Let us take a deep breathe and then count to ten. \nAnd not think about the infinite loop behind the curtain ");
+            Console.WriteLine("Ok...Ok that is just a good memory. Now for lesson one. Let us take a deep breath and then count to ten. \nAnd not think about the infinite loop behind the curtain ");
             
             //Part 2 step 1: An infinte loop
             //Part 2 step 2: Save your code
@@ -56,7 +56,7 @@ namespace Six_Part_Console_Application
 
             //Part 3 step 1: A loop where the comparison that's used to determine whether to continue iterating the loop is a "<" operator
             //Part 3 step 2: Save and execute your code
-            Console.WriteLine("Think of a number and tell me out loud. A smallish number ");
+            Console.WriteLine("Think of a small number ");
             Console.Write("number: ");
             int oneCount = Convert.ToInt32(Console.ReadLine());
 
@@ -67,7 +67,7 @@ namespace Six_Part_Console_Application
 
             //Part 3 step 3: A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<=” operator.
             //Part 3 step 4: Save and execute your code
-            Console.WriteLine("Think of another number I forgot to include your number in my count: ");
+            Console.WriteLine("Think of another number, I forgot to include your number in my count: ");
             Console.Write("number: ");
             int twoCount = Convert.ToInt32(Console.ReadLine());
 
@@ -83,7 +83,7 @@ namespace Six_Part_Console_Application
             itemsList.Add("Tablet");
             itemsList.Add("Phone");
 
-            Console.WriteLine("Choose an item from this list you cannot live without in your daily life");
+            Console.WriteLine("Choose an item from this list you can't live without in your daily life");
             Console.WriteLine("PC, Laptop, Tablet, Phone");
             //Part 4-2.Ask the user to input text to search for in the list.
             Console.WriteLine("Write in your response: ");
@@ -115,11 +115,11 @@ namespace Six_Part_Console_Application
             colorList.Add("Blue");
             colorList.Add("Yellow");
 
-            Console.WriteLine("On the table behind me you cannot see there are 4 colored cups. \nPlease think of a color but please enter Blue: ");
+            Console.WriteLine("On the table behind me you can't see that there are 4 colored cups. \nPlease think of a color in your mind but please type the word Blue: ");
             string search2 = Console.ReadLine();
 
             //Part 5-2.Create a loop that iterates through the list and then displays the indices of the list that contain matching text on the screen.
-            for (int c = 0; c < itemsList.Count; c++)
+            for (int c = 0; c < colorList.Count; c++)
             {
                 if (colorList[c] == search2)
                 {
@@ -127,7 +127,7 @@ namespace Six_Part_Console_Application
                     
                 }
              //Part 5-3.Add code to the loop to check if the user put in text that isn't on the list and, if they did, tells the user their input is not on the list.
-                else
+                else if (c == colorList.Count)
                 {
                     Console.WriteLine("Your input is not on the List!");
                     
@@ -138,26 +138,36 @@ namespace Six_Part_Console_Application
             //Part 5-4.Save and execute your code.
 
             //Part 6-1.Create a list of strings that has at least two identical strings in the list.
-            List<string> names = new List<string>() { "Magic", "Crystalball", "Color Cups", "Magic", "Magic", "Magic", "Magic", "Magic", "Magic"};
+            List<string> names = new List<string>() { "Magic", "Crystal ball", "Color Cups", "Magic", "Magic"};
             List<string> nameList = new List<string>();
 
-            Console.WriteLine("Crystal ball please tell use how much words of Magic you contain. ");
+            Console.WriteLine("Crystal ball please show us words of Magic ");
 
             //2.Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list.
             foreach (string name in names)
             {
-                if (name == "Magic")
-                {
-                    nameList.Add(name);
+                if (nameList.Contains(name))
+               {
+                    Console.WriteLine(name);
+                    break;
+                } 
+                else 
+               {
+                       Console.WriteLine(name);
+                        nameList.Add(name);
                 }
-                
+            //    //if (name == "Magic")
+            //    //{
+            //    //    nameList.Add(name);
+            //    //}
+
             }
-            Console.WriteLine(nameList.Count);
-            Console.WriteLine(" Hazza! You have recieved a Fortune Tellers Certificate!");
+            
+            Console.WriteLine(" Hazza! You have recieved a Fortune Tellers Certificate and complimentary crystal ball!");
             //3.Save and execute your code.
 
 
-            Console.WriteLine("Congratulations I am sure you are ready to go home and give your new crysal ball a try on " + oneUser);
+            Console.WriteLine("Congratulations! I am sure you are ready to go home and give your new crysal ball a try on " + oneUser);
 
             Console.ReadLine();
         }
