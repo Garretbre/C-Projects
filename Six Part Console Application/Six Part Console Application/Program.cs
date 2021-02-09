@@ -141,19 +141,19 @@ namespace Six_Part_Console_Application
             List<string> names = new List<string>() { "Magic", "Crystal ball", "Color Cups", "Magic", "Magic"};
             List<string> nameList = new List<string>();
 
-            Console.WriteLine("Crystal ball please show us words of Magic ");
+            Console.WriteLine("Crystal ball please show us words on your list of Magic ");
 
             //2.Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list.
             foreach (string name in names)
             {
                 if (nameList.Contains(name))
                {
-                    Console.WriteLine(name);
-                    break;
+                    Console.WriteLine(name + " has already appeared on the list");
+                    
                 } 
                 else 
                {
-                       Console.WriteLine(name);
+                       Console.WriteLine(name + " has not already appeared in the list");
                         nameList.Add(name);
                 }
             //    //if (name == "Magic")
