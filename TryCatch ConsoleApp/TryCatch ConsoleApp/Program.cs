@@ -15,33 +15,30 @@ namespace TryCatch_ConsoleApp
 
             try
             {
-                List<int> agePets = new List<int>();
-                agePets.Add(20);
-                agePets.Add(15);
-                agePets.Add(200);
-                agePets.Add(30);
+                List<int> ageTrees = new List<int>();
+                ageTrees.Add(20);
+                ageTrees.Add(15);
+                ageTrees.Add(200);
+                ageTrees.Add(30);
 
 
                 Console.WriteLine("Pick a huge number.");
                 int numberOne = Convert.ToInt32(Console.ReadLine());
-
-
-
-                foreach (int agePet in agePets)
+                foreach (int ageTree in ageTrees)
                 {
-                    Console.WriteLine( numberOne / agePet);
+                    Console.WriteLine(numberOne / ageTree);
+
                 }
-                
-                Console.ReadLine();
             }
-            //4.Run the code once again, entering in a string as the number to divide by.Note any error messages you get.
-            catch (FormatException ex)
+
+            catch (FormatException e)
             {
-                Console.WriteLine("Please type a whole number.");
+                Console.WriteLine(e + " Please type a whole number.");
             }
-            catch (DivideByZeroException ex)
+
+            catch (DivideByZeroException e)
             {
-                Console.WriteLine("Please don't divide by zero.");
+                Console.WriteLine(e + " Please don't divide by zero.");
             }
             catch (Exception ex)
             {
@@ -50,13 +47,15 @@ namespace TryCatch_ConsoleApp
             finally
             {
                 Console.WriteLine("You have emerged from the try/catch block");
-
             }
+
+
 
             //2.Run the code, entering in non - zero numbers as the user.Look at the displayed results.
 
-
             //3.Run the code again, entering in zero as the number to divide by.Note any error messages you get.
+
+            //4.Run the code once again, entering in a string as the number to divide by.Note any error messages you get.
 
             //5.Now put the loop in a try/catch block.Below and outside of the try/catch block, make the program print a 
             //message to the display to let you know the program has emerged from the try/catch block and continued on 
