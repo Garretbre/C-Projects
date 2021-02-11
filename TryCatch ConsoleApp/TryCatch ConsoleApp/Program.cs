@@ -22,40 +22,47 @@ namespace TryCatch_ConsoleApp
                 ageTrees.Add(30);
 
 
-                Console.WriteLine("Pick a huge number.");
+                Console.WriteLine("Pick a number.");
                 int numberOne = Convert.ToInt32(Console.ReadLine());
                 foreach (int ageTree in ageTrees)
                 {
-                    Console.WriteLine(numberOne / ageTree);
-
+                //2.Run the code, entering in non - zero numbers as the user.Look at the displayed results.
+                    Console.WriteLine(ageTree / numberOne);
+                    Console.ReadLine();
                 }
             }
+           
 
-            catch (FormatException e)
-            {
-                Console.WriteLine(e + " Please type a whole number.");
-            }
-
+            //3.Run the code again, entering in zero as the number to divide by.Note any error messages you get.
             catch (DivideByZeroException e)
             {
-                Console.WriteLine(e + " Please don't divide by zero.");
+                Console.WriteLine(e.Message + " Please don't divide by zero.");
             }
+            //Entering a zero I recieved this error message above.
+
+
+            //4.Run the code once again, entering in a string as the number to divide by.Note any error messages you get.
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message + " Please type a whole number.");
+            }
+            //Entering in strings I got this error message printed to the screen above.
+            
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            finally
+
+
+             finally
             {
                 Console.WriteLine("You have emerged from the try/catch block");
             }
 
 
 
-            //2.Run the code, entering in non - zero numbers as the user.Look at the displayed results.
 
-            //3.Run the code again, entering in zero as the number to divide by.Note any error messages you get.
 
-            //4.Run the code once again, entering in a string as the number to divide by.Note any error messages you get.
 
             //5.Now put the loop in a try/catch block.Below and outside of the try/catch block, make the program print a 
             //message to the display to let you know the program has emerged from the try/catch block and continued on 
@@ -63,6 +70,9 @@ namespace TryCatch_ConsoleApp
             //of user input: valid numbers, zero and a string.Ensure the proper error messages display on the screen, and that 
             //the code after the try/catch block gets executed.
 
-        }
+
+
+            Console.ReadLine();
+            }
     }
 }

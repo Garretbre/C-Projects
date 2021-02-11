@@ -6,20 +6,18 @@ using System.Threading.Tasks;
 
 namespace BlackJack_Project
 {
-    class Card
-    {
-        public  Card
+    public class Card
         {
             public Card()
             {
-                Suit = "Spades";
-                Face = "Two";
+            Suit = "Spades";
+            Face = "Two";
             }
 
 
-
+    
             public string Suit { get; set; }
             public string Face { get; set; }
         }
-    }
+    
 }
