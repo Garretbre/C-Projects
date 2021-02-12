@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\AcmeAccountingSystems\\AcmeAccountingSystems\\AcmeAccountingSystems.csproj": {}
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math Class Methods\\Math Class Methods\\Math Class Methods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\AcmeAccountingSystems\\AcmeAccountingSystems\\AcmeAccountingSystems.csproj": {
+    "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math Class Methods\\Math Class Methods\\Math Class Methods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\AcmeAccountingSystems\\AcmeAccountingSystems\\AcmeAccountingSystems.csproj",
-        "projectName": "AcmeAccountingSystems",
-        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\AcmeAccountingSystems\\AcmeAccountingSystems\\AcmeAccountingSystems.csproj",
+        "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math Class Methods\\Math Class Methods\\Math Class Methods.csproj",
+        "projectName": "Math Class Methods",
+        "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math Class Methods\\Math Class Methods\\Math Class Methods.csproj",
         "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\AcmeAccountingSystems\\AcmeAccountingSystems\\obj\\",
+        "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\Math Class Methods\\Math Class Methods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grret\\AppData\\Roaming\\NuGet\\NuGet.Config",
