@@ -37,6 +37,15 @@ namespace BlackJack_Project
             deck.Cards = TempList;
             return deck;
         }
+
+        public static Deck Shuffle(Deck deck, int times)
+        {
+            for (int = 0; int < times; int++)
+            {
+                deck = Shuffle(deck);
+            }
+            return deck
+        }
     }
 }
 

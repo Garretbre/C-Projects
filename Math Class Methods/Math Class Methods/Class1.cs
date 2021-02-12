@@ -9,25 +9,28 @@ namespace Math_Class_Methods
     //The methods should do some math operation on the received parameter.Put this class in a separate.cs file in the application.
     public class Class1
     {
-        public Class1()
+        //Method one
+        public int method1(int num1)
        
         {
-            string Add = oneNum + 5;
-            
+            int result = num1 + 5;
+            return result;
         }
 
 
-
-        public string Add { get; set; }
-        
-
         //Method two
+        public int method2(int num2)
+        {
+            int result = num2 * 5;
+            return result;
+        }
 
-
-
-        //Methid three
-
-
+        //Method three
+        public int method3(int num3)
+        {
+            int result = num3 / 5;
+            return result;
+        }
 
 
     }

@@ -19,10 +19,20 @@ namespace Math_Class_Methods
             Console.Write("number: ");
             int oneNum = Convert.ToInt32(Console.ReadLine());
 
-            
+            Class1 add = new Class1();
 
             //3. Call each method in turn, passing the user input to the method. Display the returned integer to the screen.
-            Console.WriteLine(Add);
+            Console.WriteLine("Your number plus 5");
+            Console.WriteLine(add.method1(oneNum));
+
+
+            Console.WriteLine("Your number multiplied by 5");
+            Console.WriteLine(add.method2(oneNum));
+
+            Console.WriteLine("Your number divided by 5");
+            Console.WriteLine(add.method3(oneNum));
+
+            Console.ReadLine();
         }
     }
 }
