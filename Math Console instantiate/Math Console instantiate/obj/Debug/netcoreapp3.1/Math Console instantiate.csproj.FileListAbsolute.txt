@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\bin\Debug\netcoreapp3.1\Math Console instantiate.exe
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\bin\Debug\netcoreapp3.1\Math Console instantiate.deps.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\bin\Debug\netcoreapp3.1\Math Console instantiate.runtimeconfig.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\bin\Debug\netcoreapp3.1\Math Console instantiate.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\bin\Debug\netcoreapp3.1\Math Console instantiate.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\bin\Debug\netcoreapp3.1\Math Console instantiate.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math Console instantiate\Math Console instantiate\obj\Debug\netcoreapp3.1\Math Console instantiate.genruntimeconfig.cache
