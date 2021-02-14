@@ -6,7 +6,7 @@ namespace Math_Console_instantiate
 {
     public class Class2
     {
-        public int method4(int num1)
+        public int Method4(int num1)
 
         {
             int result = num1 + 5;
@@ -15,29 +15,33 @@ namespace Math_Console_instantiate
         //3. Add a second method to the class with the same name that will take in a decimal, 
         //create a different math operation for it, then return the answer as an integer.
 
-        
-        public double method5(int num1)
+
+        public int Method5(decimal num2)
         {
-            double y = 3.3;
-            double result = num1 * y;
-            return result;
+            
+            
+            return Convert.ToInt32(num2 + 3);
+            
         }
 
         //5. Add a third method to the class, with the same name, that will take in a string, 
         //convert it to an integer if possible, do a different math operation to it, then return the answer as an integer.
-        public int method6(int num1)
+        public int Method6(string num3)
         {
+                //int result = 0;
+                bool x = Int32.TryParse(num3, out int result);
+                //int result = Int32.Parse(num3);
+                //return result;
 
-            int result = num1 / 2;
-
-            if (num1 >= 0)
+            if (x)
             {
-                Console.WriteLine(Convert.ToInt32(result));
+                return result * 3;
             }
             else
             {
-                Console.WriteLine("You have not entered a number");
+              throw new Exception("You have not entered a number");
             }
+            
         }
     }
 }

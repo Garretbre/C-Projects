@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\bin\Debug\netcoreapp3.1\Math no number.exe
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\bin\Debug\netcoreapp3.1\Math no number.deps.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\bin\Debug\netcoreapp3.1\Math no number.runtimeconfig.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\bin\Debug\netcoreapp3.1\Math no number.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\bin\Debug\netcoreapp3.1\Math no number.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\bin\Debug\netcoreapp3.1\Math no number.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\Math no number\Math no number\obj\Debug\netcoreapp3.1\Math no number.genruntimeconfig.cache
