@@ -35,7 +35,7 @@ namespace Math_Console_instantiate
             decimal twoNum = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Your number uses decimals. Your number plus by 3");
-            var result = thumb.Method5(twoNum);
+            var result = thumb.Method4(twoNum);
             Console.WriteLine(result);
             //Console.WriteLine(result.GetType()); Test that we actually returned an integer.
 
@@ -44,10 +44,10 @@ namespace Math_Console_instantiate
             //passing in a string that equates to an integer.Display the result to the screen.
             Console.WriteLine("Enter a number ");
             string threeNum = Console.ReadLine();
-            Console.WriteLine("Currently your number is a string ");
+            Console.WriteLine("Currently your number is a string times 3 ");
             try
             {
-                Console.WriteLine(thumb.Method6(threeNum));
+                Console.WriteLine(thumb.Method4(threeNum));
             }
             catch (Exception ex)
             {

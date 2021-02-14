@@ -16,7 +16,7 @@ namespace Math_Console_instantiate
         //create a different math operation for it, then return the answer as an integer.
 
 
-        public int Method5(decimal num2)
+        public int Method4(decimal num2)
         {
             
             
@@ -26,12 +26,13 @@ namespace Math_Console_instantiate
 
         //5. Add a third method to the class, with the same name, that will take in a string, 
         //convert it to an integer if possible, do a different math operation to it, then return the answer as an integer.
-        public int Method6(string num3)
+        public int Method4(string num3)
         {
                 //int result = 0;
                 bool x = Int32.TryParse(num3, out int result);
                 //int result = Int32.Parse(num3);
                 //return result;
+                
 
             if (x)
             {
