@@ -13,22 +13,42 @@ namespace Math_no_number
 
             //2. In the Main() method of the console app, instantiate the class.
             twoIntegers thumb = new twoIntegers(); //instantiate
+            //thumb.Add(num1);
+            //thumb.Add(int num2);
+
 
             //3. Ask the user to input two numbers, one at a time.Let them know they need not enter anything for the second number.
             Console.WriteLine("Pick a number you would like to use math operations on ");
             Console.Write("number: ");
             int oneNum = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("You do not need to enter a number here ");
-            Console.Write("number: ");
-            int twoNum = Convert.ToInt32(Console.ReadLine());
+            
 
             //4. Call the method in the class, passing in the one or two numbers entered.
             
-            Console.WriteLine("Your number ");
-            Console.WriteLine(thumb.Method1(oneNum, twoNum));
+            
+            //Console.WriteLine(thumb.Method1(oneNum, twoNum));
+            
+            
+            Console.WriteLine("Currently your number ");
+            try
+            {
+                Console.WriteLine("You do not need to enter a number here ");
+                Console.Write("number: ");
+                int twoNum = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Currently your number has had 25 added to your numbers ");
+                Console.WriteLine(thumb.Method1(oneNum, twoNum));
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
+
+            Console.ReadLine();
             //5. Try various combinations of numbers on the code, including having no second number.
+            //*No second number gives me an error. string was not in the correct format*
         }
     }
 }
