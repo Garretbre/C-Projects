@@ -12,8 +12,8 @@ namespace Math_no_number
             // *Creating a class you right click on Math no number and scroll down to Add. Then add new class.*
 
             //2. In the Main() method of the console app, instantiate the class.
-            twoIntegers thumb = new twoIntegers(); //instantiate
-            //thumb.Add(num1);
+            TwoIntegers thumb = new TwoIntegers(); //instantiate
+            //thumb.Add(int num1);
             //thumb.Add(int num2);
 
 
@@ -22,11 +22,17 @@ namespace Math_no_number
             Console.Write("number: ");
             int oneNum = Convert.ToInt32(Console.ReadLine());
 
-            
+            //Console.WriteLine("You do not need to enter a number here ");
+            //Console.Write("number: ");
+            //int twoNum = Convert.ToInt32(Console.ReadLine());
+
+
+
+
 
             //4. Call the method in the class, passing in the one or two numbers entered.
-            
-            
+
+
             //Console.WriteLine(thumb.Method1(oneNum, twoNum));
             
             
@@ -36,19 +42,21 @@ namespace Math_no_number
                 Console.WriteLine("You do not need to enter a number here ");
                 Console.Write("number: ");
                 int twoNum = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Currently your number has had 25 added to your numbers ");
+                Console.WriteLine("Your numbers were added and that number was multiplied by 3 ");
                 Console.WriteLine(thumb.Method1(oneNum, twoNum));
                 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("Your first number was multiplied by 3");
+                Console.WriteLine(thumb.Method1(oneNum));
             }
 
 
             Console.ReadLine();
             //5. Try various combinations of numbers on the code, including having no second number.
-            //*No second number gives me an error. string was not in the correct format*
+            //* I tested with both numbers and with one number. All paths of code worked*
+            
         }
     }
 }

@@ -4,26 +4,24 @@ using System.Text;
 
 namespace Math_no_number
 {
-    class twoIntegers
+    class TwoIntegers
     {
-        public int Method1(int num1, int num2)
+        public int Method1(int num1,int num2 = 0)
         {
-
-            //int result = 0;
-            bool x = (num1 + num2) > 0;
-            int result = num1 + num2;
-            //int result = Int32.Parse(num3);
-            //return result;
+            return (num1 + num2) * 3;
+            //bool x = num1 + num2 >= 0;
+            //int result = num1 + num2;
 
 
-            if (x)
-            {
-                return result + 25;
-            }
-            else
-            {
-                throw new Exception("You have not entered a number");
-            }
+
+            //if (x)
+            //{
+            //    return result * 25;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You have not entered a number");
+            //}
             //public int Method1(int num1, int num2)
 
             //{
