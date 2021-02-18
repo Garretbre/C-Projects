@@ -44,7 +44,18 @@ namespace Math_no_number
                 int twoNum = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Your numbers were added and that number was multiplied by 3 ");
                 Console.WriteLine(thumb.Method1(oneNum, twoNum));
-                
+                //*Instructor input*
+                //string secondInput = Console.ReadLine();
+                //if (secondInput == '')  // empty string
+                //{
+                //    // call method with one parameter 
+                //}
+                //else
+                //{
+                //    // convert secondInput to int
+                //    // call method with two parameters
+                //}
+                //*Try when you have time*
             }
             catch (Exception)
             {
