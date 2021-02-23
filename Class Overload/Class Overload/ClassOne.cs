@@ -24,10 +24,16 @@ namespace Class_Overload
 
 
         }
-        public int Method2(int num3, int num4)
+        //4. Create a method with output parameters.
+        public void Method2(out int answer, out string message)
         {
             {
-                return num3 + num4;
+                message = "I am outputting a string and then the number 10";
+                answer = 10;
+                
+                
+                
+                
             }
 
         }

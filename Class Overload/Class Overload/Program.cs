@@ -6,6 +6,8 @@ namespace Class_Overload
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
             Console.WriteLine("Overload ");
@@ -19,22 +21,22 @@ namespace Class_Overload
             Console.Write("number: ");
             int oneNum = Convert.ToInt32(Console.ReadLine());
             twoClass.Method1(oneNum);
-
-            //4. Create a method with output parameters.
-            Console.WriteLine("10 + 10 =");
-            Console.WriteLine(twoClass.Method2(10, 10));
-
-
-
-            //5. Overload a method.
+            
+            
+             //5. Overload a method.
             Person me = new Person();
             me.SayName("Garret");
 
-
-
+            int argNumber;
+            string argMessage;
+            //Method(out argNumber, out argMessage, out argDefault);
+            twoClass.Method2(out argNumber, out argMessage);
+            Console.WriteLine(argMessage);
+            Console.WriteLine(argNumber);
             
-            var number = Calculator.ReturnANumber(4);
-            Console.WriteLine("Your Staic number is " + number);
+
+            int number = Calculator.ReturnANumber(4);
+            Console.WriteLine("Your Static number is " + number);
 
 
             Console.ReadLine();
