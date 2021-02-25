@@ -10,7 +10,7 @@ namespace Abstract_Class
         {
             Console.WriteLine("Welcome to Abstract Class!");
 
-            //5. Inside the Main() method, instantiate an Employee object with firstName "Sample" and lastName "Student". Call the SayName() method on the object.
+            
             Employee object1 = new Employee();
             object1.firstName = "Sample";
             object1.lastName = " Student";
@@ -18,7 +18,14 @@ namespace Abstract_Class
 
             object1.SayName();
 
+
+            Employee object2 = new Employee();
+            object2.Quit();
+            
+
             Console.ReadLine();
+
+           
         }
     }
 }
