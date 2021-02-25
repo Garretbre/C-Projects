@@ -11,19 +11,29 @@ namespace BlackJack_Project
     {
         static void Main(string[] args)
         {
-            Deck deck = new Deck();
-            deck.Shuffle(3);
-            //deck = Shuffle(deck, 3);
-            //deck = Shuffle(deck, 3);
-
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
-            
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
+            game.ListPlayers();
             Console.ReadLine();
-        }
+
+
+
+            //Deck deck = new Deck();
+            //game.Dealer = "Jesse";
+            //game.Name = "TwentyOne";
+            //Card card = new Card { Face = "King", Suit = "Spades" }; Initailizes objects off the bat
+        //    deck.Shuffle(3);
+        //    //deck = Shuffle(deck, 3);
+        //    //deck = Shuffle(deck, 3);
+
+        //    foreach (Card card in deck.Cards)
+        //    {
+        //        Console.WriteLine(card.Face + " of " + card.Suit);
+        //    }
+        //    Console.WriteLine(deck.Cards.Count);
+            
+        //    Console.ReadLine();
+        //}
 
         //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
         //{
