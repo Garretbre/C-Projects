@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace BlackJack_Project
 {
     class Program
@@ -12,9 +11,19 @@ namespace BlackJack_Project
         static void Main(string[] args)
         {
             TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
+            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
             game.ListPlayers();
             Console.ReadLine();
+            //Game game = new Game(); *Absract cannot instaitiate class when you abstract a class*
+            //*Polymorphism*
+            //List<Game> games = new List<Game>();
+            //TwentyOneGame game = new TwentyOneGame();
+            //games.Add(game);
+            //*Polymorphism*
+            //TwentyOneGame game = new TwentyOneGame();
+            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
+            //game.ListPlayers();
+            //Console.ReadLine();
 
 
 
@@ -22,12 +31,12 @@ namespace BlackJack_Project
             //game.Dealer = "Jesse";
             //game.Name = "TwentyOne";
             //Card card = new Card { Face = "King", Suit = "Spades" }; Initailizes objects off the bat
-        //    deck.Shuffle(3);
+            //deck.Shuffle(3);
         //    //deck = Shuffle(deck, 3);
         //    //deck = Shuffle(deck, 3);
 
         //    foreach (Card card in deck.Cards)
-        //    {
+        //   {
         //        Console.WriteLine(card.Face + " of " + card.Suit);
         //    }
         //    Console.WriteLine(deck.Cards.Count);
