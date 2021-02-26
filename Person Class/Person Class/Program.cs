@@ -10,9 +10,6 @@ namespace Person_Class
         {
             Console.WriteLine("Hello Employee World!");
 
-            
-
-
             Employee person = new Employee();
             person.FirstName = "Sample";
             person.LastName = " Student";
@@ -22,18 +19,16 @@ namespace Person_Class
             person2.FirstName = "Billy";
             person2.LastName = " Joe";
             person2.Id = 12;
+            //person2.Id = 13; *Tested to see if the program worked*
 
-            
-            
+
             person.SayName();
             person2.SayName();
 
-            if (person.Id > person2.Id)
-                Console.WriteLine("Employee 1 was hired before Employee 2 ");
-            else if (person.Id == person2.Id)
-                Console.WriteLine("Employee 1 was hired on the same day as Employee 2");
+            if (person == person2)
+                Console.WriteLine("Employee 1 was hired the same day as Employee 2 ");
             else
-                Console.WriteLine("Employee 2 was hired before Employee 1");
+               Console.WriteLine("Employee 1 were not hired on the same day Employee 2");
 
 
             Console.ReadLine();
