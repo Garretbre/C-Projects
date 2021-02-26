@@ -10,10 +10,10 @@ namespace BlackJack_Project
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
-            game.ListPlayers();
-            Console.ReadLine();
+
+
+            //game.ListPlayers();
+            //Console.ReadLine();
             //Game game = new Game(); *Absract cannot instaitiate class when you abstract a class*
             //*Polymorphism*
             //List<Game> games = new List<Game>();
@@ -26,23 +26,29 @@ namespace BlackJack_Project
             //Console.ReadLine();
 
 
+            Game game = new TwentyOneGame();
+            game.Players = new List<Players>();
+            Player player = new Player();
+            player.Name = "Jesse";
+            game += player;
+            game -= player;
 
-            //Deck deck = new Deck();
+            Deck deck = new Deck();
             //game.Dealer = "Jesse";
             //game.Name = "TwentyOne";
             //Card card = new Card { Face = "King", Suit = "Spades" }; Initailizes objects off the bat
-            //deck.Shuffle(3);
+            deck.Shuffle(3);
         //    //deck = Shuffle(deck, 3);
         //    //deck = Shuffle(deck, 3);
 
-        //    foreach (Card card in deck.Cards)
-        //   {
-        //        Console.WriteLine(card.Face + " of " + card.Suit);
-        //    }
-        //    Console.WriteLine(deck.Cards.Count);
+           foreach (Card card in deck.Cards)
+          {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
             
-        //    Console.ReadLine();
-        //}
+            Console.ReadLine();
+        }
 
         //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
         //{

@@ -10,16 +10,31 @@ namespace Person_Class
         {
             Console.WriteLine("Hello Employee World!");
 
-            //4. Inside of the Main method, instantiate and initialize an Employee object with a first name of "Sample" and a last name of "Student".
+            
 
 
             Employee person = new Employee();
             person.FirstName = "Sample";
             person.LastName = " Student";
-            person.Id = 123;
+            person.Id = 12;
 
-            //5. Call the superclass method SayName() on the Employee object.
+            Employee person2 = new Employee();
+            person2.FirstName = "Billy";
+            person2.LastName = " Joe";
+            person2.Id = 12;
+
+            
+            
             person.SayName();
+            person2.SayName();
+
+            if (person.Id > person2.Id)
+                Console.WriteLine("Employee 1 was hired before Employee 2 ");
+            else if (person.Id == person2.Id)
+                Console.WriteLine("Employee 1 was hired on the same day as Employee 2");
+            else
+                Console.WriteLine("Employee 2 was hired before Employee 1");
+
 
             Console.ReadLine();
 

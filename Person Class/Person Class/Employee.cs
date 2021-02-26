@@ -4,19 +4,40 @@ using System.Text;
 
 namespace Person_Class
 {
-    //class TwentyOneGame : Game
+    
     class Employee : Person
     {
-        //3. Create another class called Employee and have it inherit from the Person class. Give the Employee class a property called Id and have it be of data type int.
-        public int Id;
+        //1. Overload the "==" operator so it checks if two Employee objects are equal by comparing their Id property.
+        public static bool operator >(Employee person, Employee person2)
+        {
+            if (person.Id > person2.Id)
+                return true;
+            else if (person.Id == person2.Id)
+                return false;
+            else
+                return false;
+        }
+
+        public static bool operator <(Employee person, Employee person2)
+        { 
+
+            if (person.Id < person2.Id)
+                return false;
+            else if (person.Id == person2.Id)
+                return false;
+            else
+                return true;
+        }
+
+
         public override void SayName()
         {
 
 
             Console.WriteLine("Name: " + FirstName + LastName + " -Id: " + Id);
-
-            
         }
+
+        
     }
 
 }
