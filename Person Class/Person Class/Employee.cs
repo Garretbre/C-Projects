@@ -20,9 +20,9 @@ namespace Person_Class
         { 
 
             if (person.Id != person2.Id)
-                return false;
-            else
                 return true;
+            else
+                return false;
         }
 
 
