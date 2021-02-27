@@ -4,36 +4,47 @@ using System.Text;
 
 namespace Person_Class
 {
-    
-    class Employee : Person
+    //1.Make the Employee class take a generic type parameter.
+    public class Employee<T> : Person
     {
-        //1. Overload the "==" operator so it checks if two Employee objects are equal by comparing their Id property.
-        public static bool operator ==(Employee person, Employee person2)
-        {
-           if (person.Id == person2.Id)
-                return true;
-            else
-                return false;
-        }
-
-        public static bool operator !=(Employee person, Employee person2)
-        { 
-
-            if (person.Id != person2.Id)
-                return true;
-            else
-                return false;
-        }
+        //2. Add a property to the Employee class called "things" and have its data type be a generic list matching the generic type of the class.
+        public List<T> Things { get; set; }
+        //3. Instantiate an Employee object with type "string" as its generic parameter.Assign a list of strings as the property value of Things.
+        //public string Food;
+        //public int Balance;
 
 
-        public override void SayName()
-        {
 
 
-            Console.WriteLine("Name: " + FirstName + LastName + " -Id: " + Id);
-        }
 
-        
+
+
+        //public static bool operator ==(Employee person, Employee person2)
+        //{
+        //   if (person.Id == person2.Id)
+        //        return true;
+        //    else
+        //        return false;
+        //}
+
+        //public static bool operator !=(Employee person, Employee person2)
+        //{ 
+
+        //    if (person.Id != person2.Id)
+        //        return true;
+        //    else
+        //        return false;
+        //}
+
+
+        //public override void SayName()
+        //{
+
+
+        //    Console.WriteLine("Name: " + FirstName + LastName + " -Id: " + Id);
+        //}
+
+
     }
 
 }

@@ -11,9 +11,9 @@ namespace Person_Class
         public string LastName;
         public int Id;
 
-        public virtual void SayName()
+        public void SayName()
             {
-                Console.WriteLine("Name: " + FirstName + LastName);
+                Console.WriteLine("Name: " + FirstName + LastName + "Emploee Number: " + Id);
             }
         
     }

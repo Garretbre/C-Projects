@@ -26,13 +26,13 @@ namespace BlackJack_Project
             //Console.ReadLine();
 
 
-            Game game = new TwentyOneGame();
-            game.Players = new List<Players>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game += player;
-            game -= player;
-
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Players>();
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game += player;
+            //game -= player;
+            //DaysOfTheWeek day = DaysOfTheWeek.Monday;
             Deck deck = new Deck();
             //game.Dealer = "Jesse";
             //game.Name = "TwentyOne";
@@ -49,6 +49,16 @@ namespace BlackJack_Project
             
             Console.ReadLine();
         }
+        //public enum DaysOfTheWeek
+        //{
+        //    Monday,
+        //    Tuesday,
+        //    Wednesday,
+        //    Thursday,
+        //    Friday,
+        //    Saturday,
+        //    Sunday
+        //}
 
         //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
         //{
