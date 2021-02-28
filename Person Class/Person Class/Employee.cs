@@ -8,7 +8,7 @@ namespace Person_Class
     public class Employee<T> : Person
     {
         //2. Add a property to the Employee class called "things" and have its data type be a generic list matching the generic type of the class.
-        public Employee<T> Things;
+        public List<T> Things { get; set; }
         //3. Instantiate an Employee object with type "string" as its generic parameter.Assign a list of strings as the property value of Things.
         //public string Food;
         //public int Balance;

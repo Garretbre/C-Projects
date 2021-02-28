@@ -13,21 +13,31 @@ namespace Person_Class
 
 
 
-
-            //3. Instantiate an Employee object with type "string" as its generic parameter.Assign a list of strings as the property value of Things.
-            List<string> Things = new List<string>();
-            Things.Add("Gourmet Sandwich");
-            Things.Add("Fondue");
-            Things.Add("Macaroni");
             
+            //3. Instantiate an Employee object with type "string" as its generic parameter.Assign a list of strings as the property value of Things.
+            Employee<string> emp1 = new Employee<string>();
+
+            emp1.Things = new List<string>();
+            emp1.Things.Add("Gourmet Sandwich");
+            emp1.Things.Add("Fondue");
+            emp1.Things.Add("Macaroni");
+
 
             //4. Instantiate an Employee object with type "int" as its generic parameter.Assign a list of integers as the property value of Things.
-            List<int> Things = new List<int>();
-            Things.Add(1);
-            Things.Add(2);
-            Things.Add(3);
+            Employee<int> emp2 = new Employee<int>();
+
+            emp2.Things = new List<int>();
+            emp2.Things.Add(1);
+            emp2.Things.Add(2);
+            emp2.Things.Add(3);
             //5. Create a loop that prints all of the Things to the Console.
-            foreach (string thing in Things)
+
+            foreach (string thing in emp1.Things)
+            {
+                Console.WriteLine(thing);
+            }
+
+            foreach (int thing in emp2.Things)
             {
                 Console.WriteLine(thing);
             }
