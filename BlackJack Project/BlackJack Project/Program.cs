@@ -10,45 +10,79 @@ namespace BlackJack_Project
     {
         static void Main(string[] args)
         {
-
-
-            //game.ListPlayers();
-            //Console.ReadLine();
-            //Game game = new Game(); *Absract cannot instaitiate class when you abstract a class*
-            //*Polymorphism*
-            //List<Game> games = new List<Game>();
-            //TwentyOneGame game = new TwentyOneGame();
-            //games.Add(game);
-            //*Polymorphism*
-            //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
-            //game.ListPlayers();
-            //Console.ReadLine();
-
-
-            //Game game = new TwentyOneGame();
-            //game.Players = new List<Players>();
-            //Player player = new Player();
-            //player.Name = "Jesse";
-            //game += player;
-            //game -= player;
-            //DaysOfTheWeek day = DaysOfTheWeek.Monday;
-            Deck deck = new Deck();
-            //game.Dealer = "Jesse";
-            //game.Name = "TwentyOne";
-            //Card card = new Card { Face = "King", Suit = "Spades" }; Initailizes objects off the bat
-            deck.Shuffle(3);
-        //    //deck = Shuffle(deck, 3);
-        //    //deck = Shuffle(deck, 3);
-
-           foreach (Card card in deck.Cards)
-          {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
             
-            Console.ReadLine();
-        }
+            //Card card1 = new Card(); //Instantiate
+            //Card card2 = card1; //Change value to card2
+            //card1.Face = Face.Eight;
+            //card2.Face = Face.King;
+
+            //Console.WriteLine(card1.Face);
+
+
+            Deck deck = new Deck();
+
+            int count = deck.Cards.Count(x => x.Face == Face.Ace); //*Lambda way to print aces in the deck* 
+
+            //deck.Cards. to produce a list.
+
+            int counter = 0; //*how many Aces are ing the deck foreach
+            foreach (Card card in deck.Cards)
+            {
+                if(card.Face == Face.Ace)
+                {
+                    counter++;
+                }
+            }
+
+            Console.WriteLine(counter);
+            //deck.Shuffle(3);
+           //foreach (Card card in deck.Cards)
+           // {
+           //     Console.WriteLine(card.Face + " of " + card.Suit);
+           // }
+           // Console.WriteLine(deck.Cards.Count);
+
+           // Console.ReadLine();
+           // }
+
+
+        //game.ListPlayers();
+        //Console.ReadLine();
+        //Game game = new Game(); *Absract cannot instaitiate class when you abstract a class*
+        //*Polymorphism*
+        //List<Game> games = new List<Game>();
+        //TwentyOneGame game = new TwentyOneGame();
+        //games.Add(game);
+        //*Polymorphism*
+        //TwentyOneGame game = new TwentyOneGame();
+        //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
+        //game.ListPlayers();
+        //Console.ReadLine();
+
+
+        //Game game = new TwentyOneGame();
+        //game.Players = new List<Players>();
+        //Player player = new Player();
+        //player.Name = "Jesse";
+        //game += player;
+        //game -= player;
+        //DaysOfTheWeek day = DaysOfTheWeek.Monday;
+        //Deck deck = new Deck();
+        //game.Dealer = "Jesse";
+        //game.Name = "TwentyOne";
+        //Card card = new Card { Face = "King", Suit = "Spades" }; Initailizes objects off the bat
+        //deck.Shuffle(3);
+        //    //deck = Shuffle(deck, 3);
+        //    //deck = Shuffle(deck, 3);
+
+        //   foreach (Card card in deck.Cards)
+        //  {
+        //        Console.WriteLine(card.Face + " of " + card.Suit);
+        //    }
+        //    Console.WriteLine(deck.Cards.Count);
+
+        //    Console.ReadLine();
+        //}
         //public enum DaysOfTheWeek
         //{
         //    Monday,
