@@ -5,20 +5,19 @@ using System.Text;
 
 namespace Enum_Weekdays
 {
-
-    class Program
+    //1.Create an enum for the days of the week.
+    public enum DaysOfTheWeek
     {
-        //1.Create an enum for the days of the week.
-        public enum DaysOfTheWeek
-        {
-            Monday,
-            Tuesday,
-            Wednesday,
-            Thursday,
-            Friday,
-            Saturday,
-            Sunday
-        }
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
+    }
+    class Program
+    { 
         static void Main(string[] args)
         {
 
@@ -27,22 +26,25 @@ namespace Enum_Weekdays
             try
             {
 
-                Console.WriteLine("1 Monday");
-                Console.WriteLine("2 Tuesday");
-                Console.WriteLine("3 Wednesday");
-                Console.WriteLine("4 Thursday");
-                Console.WriteLine("5 Friday");
-                Console.WriteLine("6 Saturday");
-                Console.WriteLine("7 Sunday");
 
+                
                 //2. Prompt the user to enter the current day of the week.
-                Console.WriteLine("Pick a day of the week.");
-                DaysOfTheWeek day = (DaysOfTheWeek)Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine(day - 1);
+                Console.WriteLine("Pick a day of the week: ");
+                string day = Console.ReadLine();
 
                 //3. Assign the value to a variable of that enum data type you just created.
-                //var weekday = new List <DaysOfTheWeek>();
+                DaysOfTheWeek getParse;
+                bool checkParse = Enum.TryParse(day, out getParse);
+                if (checkParse == true)
+                {
+                    Console.WriteLine("Did you enter a day of the week? " + checkParse);
+                }
+                else
+                {
+                    Console.WriteLine("Please enter a day of the week");
+                }
+                
+                
             }
             catch (Exception ex)
             {
