@@ -8,6 +8,8 @@ namespace BlackJack_Project
 {
     interface IWalkAway
     {
+        TwentyOneDealer Dealer { get; set; }
+
         void WalkAway(Player player);
     }
 }

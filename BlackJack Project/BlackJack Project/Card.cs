@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BlackJack_Project
 {
-    public struct Card
+    public class Card
     {
         public Suit Suit { get; set; }
-        public string Face { get; set; }
+        public Face Face { get; set; }
 
         public override string ToString()
         {

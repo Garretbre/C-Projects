@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace BlackJack_Project
 {
@@ -37,6 +39,7 @@ namespace BlackJack_Project
                 value += (i * 10);
                 result[i] = value;
             }
+            return result;
 
         }
 
