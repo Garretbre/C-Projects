@@ -4,10 +4,11 @@ using System.Text;
 
 namespace Lambda_Class
 {
-    class Employee
+    public class Employee
     {
-        public string FirstName;
-        public string LastName;
-        public int Id;
+        public string firstname { get; set; }
+        public string lastname { get; set; }
+        public int ID { get; set; }
+      
     }
 }

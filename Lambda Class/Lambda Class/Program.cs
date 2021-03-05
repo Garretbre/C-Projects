@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 
 namespace Lambda_Class
 {
@@ -6,85 +10,78 @@ namespace Lambda_Class
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //1.In the Main() method, create a list of at least 10 employees.Each employee should have a first and last name, as well as an Id.At least two employees should have the first name "Joe".
-
-            Employee emp1 = new Employee();
-            emp1.FirstName = "Sample";
-            emp1.LastName = " Student";
-            emp1.Id = 2;
-
-            Employee emp2 = new Employee();
-            emp2.FirstName = "joe";
-            emp2.LastName = " smith";
-            emp2.Id = 123;
-
-            Employee emp3 = new Employee();
-            emp3.FirstName = "jane";
-            emp3.LastName = " archer";
-            emp3.Id = 3;
-
-            Employee emp4 = new Employee();
-            emp4.FirstName = "timmy";
-            emp4.LastName = " zilla ";
-            emp4.Id = 87;
-
-            Employee emp5 = new Employee();
-            emp5.FirstName = "koto";
-            emp5.LastName = " roboto";
-            emp5.Id = 26;
-
-            Employee emp6 = new Employee();
-            emp6.FirstName = "joe";
-            emp6.LastName = " wren";
-            emp6.Id = 345;
-
-            Employee emp7 = new Employee();
-            emp7.FirstName = "sarah";
-            emp7.LastName = " anderson";
-            emp7.Id = 90;
-
-            Employee emp8 = new Employee();
-            emp8.FirstName = "bruce";
-            emp8.LastName = " banner";
-            emp8.Id = 999;
-
-            Employee emp9 = new Employee();
-            emp9.FirstName = "garret";
-            emp9.LastName = " breitenbach";
-            emp9.Id = 4;
-
-            Employee emp10 = new Employee();
-            emp10.FirstName = "tony";
-            emp10.LastName = " stark";
-            emp10.Id = 1;
-
-
-            
-            Employee name = new Employee();
-            foreach (Employee name in emp.joe)
+            //1.In the Main() method, create a list of at least 10 employees.Each employee should have a first and last name, as well as an Id.
+            //At least two employees should have the first name "Joe".
+            List<Employee> Employees = new List<Employee>()
             {
-                Console.WriteLine(name.joe);
+                new Employee                                         //*Each new Employee needs a firstname, lastname, and ID object in the list*
+                {
+                    firstname = "Joe", lastname = "Jackson", ID = 34
+                },
+                new Employee
+                {
+                    firstname = "Bob", lastname = "Smith", ID = 4
+                },
+                new Employee
+                {
+                    firstname = "Jeff", lastname = "Miller", ID = 7
+                },
+                new Employee
+                {
+                    firstname = "Dale", lastname = "Turner", ID = 1
+                },
+                new Employee
+                {
+                    firstname = "Kate", lastname = "Johnson", ID = 45
+                },
+                new Employee
+                {
+                    firstname = "Joe", lastname = "Abraham", ID = 78  //*Joe is a firstname for the secound time in our employee list*
+                },
+                new Employee
+                {
+                    firstname = "Allen", lastname = "Zilla", ID = 12
+                },
+                new Employee
+                {
+                    firstname = "Timmy", lastname = "Banner", ID = 9
+                },
+                new Employee
+                {
+                    firstname = "Ann", lastname = "Stark", ID = 35
+                },
+                new Employee
+                {
+                    firstname = "Tommy", lastname = "Thanos", ID = 44
+                },
+            };
+
+
+
+
+
+            List<Employee> Joes = new List<Employee>();
+            //2.Using a foreach loop, create a new list of all employees with the first name "Joe".
+            foreach (var employee in Employees) //*Loops through the employees*
+            {
+                if( employee.firstname.ToLower() == "joe") //* finds the 2 joes *
+                {
+                    Joes.Add(employee);  //* Adds the 2 Joes to the new list Joes
+                }
             }
 
-            //2.Using a foreach loop, create a new list of all employees with the first name "Joe".
-            //Employee name1 = new Employee();
-
-            //foreach (Employee name in emp1.FirstName)
-            //{
-            //    Console.WriteLine(name1.FirstName);
-            //}
-
             //3.Perform the same action again, but this time with a lambda expression.
-            //List<Employee> newList = Employee.Where(x => x.emp == .Joe).ToListString();
+            List<Employee> newList = Employees.Where(x => x.firstname == "Joe").ToList();
+            //* x => x.firstname == "Joe", which specifies a parameter that's named x, searches through firstname of all employees and returns the value of Joe, is assigned to a variable of a delegate type*
+            //*Uses lambda expression in the Where brackets to find the 2 joes and puts the joes into newList.
 
-            //foreach (Employee emp in newList)
-            //{
-            //Console.WriteLine(emp.Joe);
-            //}
             //4.Using a lambda expression, make a list of all employees with an Id number greater than 5.
 
-            Console.ReadLine();
+            List<Employee> greaterthan5 = Employees.Where(x => x.ID > 5).ToList();
+            //*Similar to above the Where is looking through the ID int to find all numbers above 5. and puts those into greaterthan5*
+
+            //5.Add comments to each line or block of your code to explain what it does exactly, so that another developer could read and understand your code.
+            //*My comments in each block*
         }
     }
 }
