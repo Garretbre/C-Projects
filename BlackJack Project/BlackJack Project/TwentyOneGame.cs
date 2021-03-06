@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack_Project
 {
-    public class TwentyOneGame : Game, IWalkAway
+     class TwentyOneGame : Game, IWalkAway
     {
         public TwentyOneDealer Dealer { get; set; }
 
