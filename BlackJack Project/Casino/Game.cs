@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackJack_Project
+namespace Casino
 {
     public abstract class Game //Making an abstract class
     {

@@ -1,0 +1,13 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\bin\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.exe
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\bin\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.deps.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\bin\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.runtimeconfig.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\bin\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.runtimeconfig.dev.json
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\bin\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\bin\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.csproj.CoreCompileInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.dll
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.pdb
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\ConsoleApp Chain Constructor\ConsoleApp Chain Constructor\obj\Debug\netcoreapp3.1\ConsoleApp Chain Constructor.genruntimeconfig.cache

@@ -1,0 +1,4 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\Casino\obj\Debug\netstandard2.0\Casino.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\Casino\obj\Debug\netstandard2.0\Casino.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\Casino\obj\Debug\netstandard2.0\Casino.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\Casino\obj\Debug\netstandard2.0\Casino.csproj.CoreCompileInputs.cache

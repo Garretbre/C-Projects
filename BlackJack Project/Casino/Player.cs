@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackJack_Project
+namespace Casino
 {
     public class Player
     {
@@ -15,6 +15,10 @@ namespace BlackJack_Project
             Name = name;
         }
 
+        //    public Player(string name) : this(name, 100)
+        //{
+
+        //}
 
             private List<Card> _hand = new List<Card>();
             public List<Card> Hand { get { return _hand; } set { _hand = value; } }

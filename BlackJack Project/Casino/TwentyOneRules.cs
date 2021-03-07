@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace BlackJack_Project
-{
+namespace Casino.TwentyOneGame
+{ 
+    
     public class TwentyOneRules
     {
         private static Dictionary<Face, int> _cardValues = new Dictionary<Face, int>()

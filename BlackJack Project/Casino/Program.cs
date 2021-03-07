@@ -1,8 +1,11 @@
 ﻿using System;
-using Casino;
-using Casino.TwentyOne;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
 
-namespace BlackJack_Project
+namespace Casino
 {
     class Program
     {
