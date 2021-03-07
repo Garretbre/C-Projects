@@ -7,11 +7,15 @@ namespace ConsoleApp_Chain_Constructor
     class Variable
     {
         public string var;
-
+        //2.Create a variable using the keyword “var.”
+        public Variable() : this("var")
+            {
+            
+            }
+        //*A constructor method that takes in no parameters*
+         
         public Variable(string avar)
         {
-            //3.Chain two constructors together.
-            //*string var and string avar are chained together in line 15*
             var = avar;
         }
     }

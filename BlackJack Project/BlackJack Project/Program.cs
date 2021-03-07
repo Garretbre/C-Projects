@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using Casino;
 using Casino.TwentyOne;
 
@@ -11,6 +13,8 @@ namespace BlackJack_Project
             //string text = FileStyleUriParser.ReadAllText("C:\\Users\\jesse\\Logs\\log.txt");
 
             //Player newPlayer = new Player("Jesse");
+
+            const string casinoName = "Grand Hotel and Casino";
 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
