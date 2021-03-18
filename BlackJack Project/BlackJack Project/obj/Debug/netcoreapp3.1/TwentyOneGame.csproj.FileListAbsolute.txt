@@ -1,0 +1,4 @@
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\BlackJack Project\obj\Debug\netcoreapp3.1\TwentyOneGame.csprojAssemblyReference.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\BlackJack Project\obj\Debug\netcoreapp3.1\TwentyOneGame.AssemblyInfoInputs.cache
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\BlackJack Project\obj\Debug\netcoreapp3.1\TwentyOneGame.AssemblyInfo.cs
+C:\Users\grret\OneDrive\Desktop\Basic_C#_Programs\C-Projects\BlackJack Project\BlackJack Project\obj\Debug\netcoreapp3.1\TwentyOneGame.csproj.CoreCompileInputs.cache

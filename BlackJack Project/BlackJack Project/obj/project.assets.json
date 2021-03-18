@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\BlackJack Project\\BlackJack Project\\BlackJack Project.csproj",
-      "projectName": "BlackJack Project",
-      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\BlackJack Project\\BlackJack Project\\BlackJack Project.csproj",
+      "projectUniqueName": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\BlackJack Project\\BlackJack Project\\TwentyOne.csproj",
+      "projectName": "TwentyOne",
+      "projectPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\BlackJack Project\\BlackJack Project\\TwentyOne.csproj",
       "packagesPath": "C:\\Users\\grret\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\grret\\OneDrive\\Desktop\\Basic_C#_Programs\\C-Projects\\BlackJack Project\\BlackJack Project\\obj\\",
       "projectStyle": "PackageReference",
