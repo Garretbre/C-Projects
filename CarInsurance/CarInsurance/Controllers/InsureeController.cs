@@ -50,11 +50,68 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Start with a base of $50 / month.
+                insuree.Quote += 50;
+
+                //If the car's Make is a Porsche, add $25 to the price.
+                if (insuree.CarMake == "Porsche")
+                {
+                    insuree.Quote += 100;
+                }
+                //If the car's Make is a Porsche and its model is a 911 Carrera, add an additional $25 to the price.
+                if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
+                {
+                    insuree.Quote += 25;
+                }
+                //If the user is 18 and under, add $100 to the monthly total.
+                var data01 = new DateTime(2003, 1, 1, 1, 1, 1);
+                if (insuree.DateOfBirth > data01)
+                {
+                    insuree.Quote += 100;
+                }
+                //If the user is between 19 and 25, add $50 to the monthly total.
+                var data02 = new DateTime(2002, 1, 1, 1, 1, 1);
+                var data03 = new DateTime(1996, 1, 1, 1, 1, 1);
+                if (insuree.DateOfBirth >= data02 && insuree.DateOfBirth <= data03)
+                {
+                    insuree.Quote += 50;
+                }
+                //If the user is over 25, add $25 to the monthly total.
+                var data04 = new DateTime(1996, 1, 1, 1, 1, 1);
+                if (insuree.DateOfBirth < data04)
+                {
+                    insuree.Quote += 25;
+                }
+                //If the car's year is before 2000, add $25 to the monthly total.
+                if (insuree.CarYear < 2000)
+                {
+                    insuree.Quote += 25;
+                }
+                //If the car's year is after 2015, add $25 to the monthly total.
+                if (insuree.CarYear > 2015)
+                {
+                    insuree.Quote += 25;
+                }
+                //Add $10 to the monthly total for every speeding ticket the user has.
+                var data05 = new SpeedingTickets * 10;
+                if (insuree.SpeedingTickets > 0)
+                {
+                   
+                   insuree.Quote += data05;
+                }
+
 
                 
 
+                //If the user has ever had a DUI, add 25 % to the total.
 
-                    db.Insurees.Add(insuree);
+                //If it's full coverage, add 50% to the total.
+                //if (insuree.CoverageType == checked)
+                //{
+                //    insuree.Quote + 50%;
+                //}
+
+                db.Insurees.Add(insuree);
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 
