@@ -93,27 +93,29 @@ namespace CarInsurance.Controllers
                     insuree.Quote += 25;
                 }
                 //Add $10 to the monthly total for every speeding ticket the user has.
-                var data05 = new SpeedingTickets * 10;
+                
                 if (insuree.SpeedingTickets > 0)
                 {
-                   
-                   insuree.Quote += data05;
+                    insuree.Quote += insuree.SpeedingTickets * 10;
                 }
 
-
-                
-
                 //If the user has ever had a DUI, add 25 % to the total.
-
-                //If it's full coverage, add 50% to the total.
-                //if (insuree.CoverageType == checked)
-                //{
-                //    insuree.Quote + 50%;
-                //}
+                if (insuree.DUI == true)
+                {
+                    insuree.Quote += insuree.Quote * .25m;
+                }
 
                 db.Insurees.Add(insuree);
-                    db.SaveChanges();
-                    return RedirectToAction("Index");
+
+                //If it's full coverage, add 50% to the total.
+                if (insuree.CoverageType == true)
+                {
+                    insuree.Quote += insuree.Quote * .50m;
+                }
+
+                db.Insurees.Add(insuree);
+                _ = db.SaveChanges();
+                return RedirectToAction("Index");
                 
             }
 
@@ -184,6 +186,36 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        //Create an Admin view for a site administrator.This page must:
+
+        //Show all quotes issued, along with the user's first name, last name, and email address.
+
+
+        public ActionResult Admin(string firstName, string lastName, string emailAddress, decimal Qoute, Insuree insuree)
+        //public ActionResult Admin(string firstName, string) Insuree insuree;
+        {
+            using (InsuranceEntities db = new InsuranceEntities())
+            {
+
+                Insuree insuree1 = new Insuree();
+                
+                insuree1.FirstName = firstName;
+                insuree1.LastName = lastName;
+                insuree1.EmailAddress = emailAddress;
+                insuree1.Quote = Qoute;
+
+
+                
+
+             db.Insurees.Add(insuree1);
+               
+                _ = db.SaveChanges();
+                
+
+               return RedirectToAction("Admin");
+            }
         }
     }
 }
