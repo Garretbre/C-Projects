@@ -21,20 +21,4 @@ namespace CarInsurance
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
-       protected void Button1_Click(object sender, EventArgs e)
-    {
-        MailMessage msg = new MailMessage();
-        msg.To.Add(txtto.Text);
-        msg.From = new MailAddress("grretb@gmail.com", "instructor@learncodinganywhere.com");
-        msg.Subject = "Sending App_Data";
-        msg.Body = Folder.App_Data;
-        SmtpClient smtp = new SmtpClient();
-        smtp.Host = "relay-hosting.secureserver.net";
-        smtp.Port = 25;
-        smtp.Credentials = new System.Net.NetworkCredential"grretb@gmail.com", "Password");
-        smtp.Send(msg);
-        lblmsg.Text = "Message Send Successfully";
-
-
-    }
 }
