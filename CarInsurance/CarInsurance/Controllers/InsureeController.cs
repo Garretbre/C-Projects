@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using CarInsurance.Models;
 
+//3. Email all database .mdf and .ldf files to an Instructor. These are located in your project’s app_data folder. I have my work in Global.asax.cs
 namespace CarInsurance.Controllers
 {
     public class InsureeController : Controller
@@ -114,7 +115,7 @@ namespace CarInsurance.Controllers
                 }
 
                 db.Insurees.Add(insuree);
-                _ = db.SaveChanges();
+                var v = db.SaveChanges();
                 return RedirectToAction("Index");
                 
             }
@@ -193,29 +194,9 @@ namespace CarInsurance.Controllers
         //Show all quotes issued, along with the user's first name, last name, and email address.
 
 
-        public ActionResult Admin(string firstName, string lastName, string emailAddress, decimal Qoute, Insuree insuree)
-        //public ActionResult Admin(string firstName, string) Insuree insuree;
+        public ActionResult Admin()
         {
-            using (InsuranceEntities db = new InsuranceEntities())
-            {
-
-                Insuree insuree1 = new Insuree();
-                
-                insuree1.FirstName = firstName;
-                insuree1.LastName = lastName;
-                insuree1.EmailAddress = emailAddress;
-                insuree1.Quote = Qoute;
-
-
-                
-
-             db.Insurees.Add(insuree1);
-               
-                _ = db.SaveChanges();
-                
-
-               return RedirectToAction("Admin");
-            }
+            return View(db.Insurees.ToList());
         }
     }
 }
