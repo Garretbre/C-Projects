@@ -51,13 +51,18 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 //Start with a base of $50 / month.
-                insuree.Quote += 50;
+                
+                
+                insuree.Quote = 50;
+                
+                
 
                 //If the car's Make is a Porsche, add $25 to the price.
                 if (insuree.CarMake == "Porsche")
                 {
-                    insuree.Quote += 100;
+                    insuree.Quote += 25;
                 }
                 //If the car's Make is a Porsche and its model is a 911 Carrera, add an additional $25 to the price.
                 if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
@@ -65,6 +70,8 @@ namespace CarInsurance.Controllers
                     insuree.Quote += 25;
                 }
                 //If the user is 18 and under, add $100 to the monthly total.
+                
+                
                 var data01 = new DateTime(2003, 1, 1, 1, 1, 1);
                 if (insuree.DateOfBirth > data01)
                 {
